@@ -21,5 +21,5 @@ The component has pros:
 Start dev example
 ```
     cd example
-    node ../ image.png
+    node ../ image-name.png
 ```
