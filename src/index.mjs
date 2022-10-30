@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import fs from 'node:fs';
 import { convertToAVIF } from './confertToAvif.mjs';
 import { confertToWebp } from './confertToWebp.mjs';

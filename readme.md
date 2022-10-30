@@ -5,7 +5,7 @@ A small util to create a preact component based on png image.
 How to use:
 ```
     cd folder/with/img
-    node path/to/create-img name-of-img
+    npx @ashushunov/create-img-component name-of-img
 ```
 
 What it does:

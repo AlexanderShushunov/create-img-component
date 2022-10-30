@@ -1,11 +1,33 @@
 {
-  "name": "create-img",
-  "version": "1.0.0",
+  "name": "@ashushunov/create-img-component",
+  "version": "1.0.2",
+  "author": "Alexander Shushunov",
+  "license": "MIT",
+  "homepage": "https://github.com/AlexanderShushunov/create-img-component",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": "src/index.mjs",
   "main": "src/index.mjs",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexanderShushunov/create-img-component"
+  },
+  "keywords": [
+    "preact",
+    "cli",
+    "component",
+    "generator",
+    "picture",
+    "webp",
+    "avif"
+  ],
   "dependencies": {
     "mustache": "^4.2.0",
     "sharp": "^0.31.1"
+  },
+  "engines": {
+    "node": ">= 16"
   }
 }
