@@ -1,0 +1,11 @@
+{
+  "name": "create-img",
+  "version": "1.0.0",
+  "bin": "src/index.mjs",
+  "main": "src/index.mjs",
+  "type": "module",
+  "dependencies": {
+    "mustache": "^4.2.0",
+    "sharp": "^0.31.1"
+  }
+}
