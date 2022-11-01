@@ -7,7 +7,16 @@ How to use:
     cd folder/with/img
     npx @ashushunov/create-img-component name-of-img.png
 ```
-
+or for all files in a folder:
+```
+    cd folder/with/several-img
+    npx @ashushunov/create-img-component
+```
+How to use:
+```
+    cd folder/with/img
+    npx @ashushunov/create-img-component name-of-img.png
+```
 What it does:
   - creates a folder with name of the image;
   - converts the image to webp and avif;
@@ -22,4 +31,9 @@ Start dev example
 ```
     cd example
     node ../ image-name.png
+```
+or for both files
+```
+    cd example
+    node ../ 
 ```
